@@ -1,0 +1,165 @@
+body{
+    overflow-x: hidden;
+}
+.search-space{
+    width: 800px;
+    margin-right: auto;
+}
+
+.search{
+    width: auto;
+    margin-right: 10px;
+}
+
+#accord{
+    margin-top: 70px !important;
+    background-color: rgba(0,255,255,0.5);
+    /* height: 330px; */
+}
+
+/* .sale-high{
+    background-color: rgba(0,255,255,0.5);
+} */
+
+.sale{
+    height: 330px;
+    margin-left: 350px;
+}
+
+.iphone{
+    height: 330px;
+    width: 950px;
+}
+
+.phone{
+      background: rgb(0,0,0) !important; 
+}
+
+.offer-phone{
+    color: #fff;
+    padding-top: 25px;
+    font-size: 1.5rem;
+}
+
+.clothes{
+    background-image: url(../images/clothes.jpg);
+    height: 330px;
+}
+
+.clothe{
+    height: 330px;
+    width: 150%;
+}
+
+
+.caro-icon{
+    height: 50px;
+    width: 30px;
+}
+
+.shirt{
+    height: 160px !important;
+    width: 200px !important;
+}
+
+.washing{
+    height: 160px;
+    width: 90%;
+}
+
+.furniture{
+    height: 160px;
+    padding-top: 3px;
+}
+
+.pillow{
+    height: 160px;
+    padding-top: 3px;
+}
+
+.types{
+    background: #00b09b; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #00b09b, #96c93d); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #00b09b, #96c93d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.types a{
+    color: black !important;
+}
+
+.mac{
+   margin-bottom: 70px !important;
+}
+
+#cart{
+    margin-top: 100px !important;
+}
+
+.head h3,h4,.card{
+    display: inline-block;
+}
+
+.head h4{
+    margin-left: 270px ;
+}
+
+.order{
+    margin-top: 10px;
+    margin-left: 600px;
+}
+
+
+#pay{
+    margin-top: 120px;
+}
+
+.enNumber input{
+    padding-bottom: 2px !important;
+}
+
+
+.show-nothing{
+    /* margin-top: 300px !important; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.back2shop{
+    align-self: center;
+}
+
+.types img {
+    height: 200px;
+    width: 250px;
+
+}
+
+.types{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.types a{
+    align-self: center;
+}
+
+.flexy{
+    display: flex;
+}
+
+
+@media (max-width: 556px){
+    #accord{
+        display: none;
+    }
+
+    .products{
+        padding-top: 500px !important;
+    }
+}
